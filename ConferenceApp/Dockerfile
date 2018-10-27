@@ -9,3 +9,4 @@ WORKDIR /app
 COPY --from=build /build/output .
 ENTRYPOINT ["dotnet", "ConferenceApp.dll"]
 
+
